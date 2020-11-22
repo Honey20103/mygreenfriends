@@ -94,6 +94,10 @@ body {
     border: 1px solid rgba(7, 43, 19, 0.952) !important;
 }
 
+.bg-black {
+    background: #787 !important;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
