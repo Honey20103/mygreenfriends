@@ -5,15 +5,15 @@ from .models import Product, Category, ProductImage
 class ProductImageAdmin(admin.StackedInline):
     model = ProductImage
 
-admin.site.register(Product)
 class ProductAdmin(admin.ModelAdmin):
     inlines = [ProductImageAdmin]
 
     class Meta:
        model = Product
- 
-admin.site.register(ProductImage)
+admin.site.register(Product, ProductAdmin)
+
 class ProductImageAdmin(admin.ModelAdmin):
     pass
+admin.site.register(ProductImage, ProductImageAdmin)
 
 admin.site.register(Category)
