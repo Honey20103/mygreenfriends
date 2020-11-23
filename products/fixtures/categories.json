@@ -1,0 +1,26 @@
+[
+     {
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+      "name": "desert_plants",
+      "friendly_name": "Desert Plants"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+      "name": "rainforest_plants",
+      "friendly_name": "Rainforest Plants"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+      "name": "low_maintenance",
+      "friendly_name": "Low Maintenance"
+    }
+  }
+]
