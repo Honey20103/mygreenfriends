@@ -24,3 +24,4 @@ def extra_view(request, id):
         'photos': photos
     }
     return render(request, 'extra.html', context)
+    
