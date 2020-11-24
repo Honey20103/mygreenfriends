@@ -6,6 +6,15 @@ class ProductImageAdmin(admin.StackedInline):
     model = ProductImage
 
 class ProductAdmin(admin.ModelAdmin):
+    list_display = (
+        'sku',
+        'name',
+        'category',
+        'price',
+        'image',
+    )
+
+    ordering = ('sku',)
     inlines = [ProductImageAdmin]
 
     class Meta:
@@ -16,4 +25,9 @@ class ProductImageAdmin(admin.ModelAdmin):
     pass
 admin.site.register(ProductImage, ProductImageAdmin)
 
-admin.site.register(Category)
+class CategoryAdmin(admin.ModelAdmin):
+    list_display = (
+        'friendly_name',
+        'name',
+    )
+admin.site.register(Category, CategoryAdmin)
