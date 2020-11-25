@@ -5,12 +5,12 @@ html {
 /* -------------------------------- Homepage */
 body {
     margin: 0;
-    background: url('/media/homepage_background.jpg') no-repeat center center fixed;
-    background-size: cover;
     height: calc(100vh - 164px);
     color: rgb(10, 42, 30);
     font-family: 'Quicksand', sans-serif;
     overflow-x: hidden;
+    background: url('/media/homepage_background.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .hero-image {
@@ -18,8 +18,7 @@ body {
   width: 100vw;
   position: relative;
   background-size: cover;
-  background-position: 50% 50%;
-  background-image: url('/media/homepage_background.jpg');
+  background: url('/media/homepage_background.jpg') no-repeat center center fixed;
 }
 
 .overlay {
@@ -28,8 +27,8 @@ body {
   width: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.65);
-  color: white;
+  background: url('/media/homepage_background.jpg') no-repeat center center fixed;
+  color: rgb(25, 46, 25);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,6 +58,10 @@ body {
 
 .logo-font {
     text-transform: uppercase;
+}
+
+.logo-font-2 {
+    color: whitesmoke;
 }
 
 .main-logo-link {
