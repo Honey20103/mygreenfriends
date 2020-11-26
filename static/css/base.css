@@ -83,7 +83,7 @@ span.badge:hover {
     min-width: 260px;
 }
 
-.btn-black {
+.btn-green {
     background: rgb(10, 42, 30);
     color: white;
 }
@@ -91,9 +91,9 @@ span.badge:hover {
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
+.btn-green:hover,
+.btn-green:active,
+.btn-green:focus {
     background: rgb(10, 42, 30);
     color: white;
 }
