@@ -96,7 +96,7 @@ span.badge:hover {
     color: white;
 }
 
-.text-black {
+.text-green {
     color: rgb(10, 42, 30) !important;
 }
 
@@ -104,8 +104,21 @@ span.badge:hover {
     border: 1px solid rgba(7, 43, 19, 0.952) !important;
 }
 
-.bg-black {
+.bg-green {
     background: #787 !important;
+}
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color:  rgba(7, 43, 19, 0.952) !important;
+}
+
+.btt-link {
+    cursor: pointer;
 }
 
 /* -------------------------------- Media Queries */
