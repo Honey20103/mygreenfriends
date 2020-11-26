@@ -1,10 +1,11 @@
 <div class="collapse navbar-collapse" id="main-nav">
-    <ul class="navbar-nav w-auto mx-auto">
-        <li class="nav-item d-block d-md-none">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
-                Home
-            </a>
-        </li>
+	<ul class="navbar-nav w-auto mx-auto">
+        <li class="nav-item">
+			<a class="logo-font font-weight-bold nav-link text-black mr-5" href="#"
+				id="allplants-link" aria-haspopup="true" aria-expanded="false">
+				About Us
+			</a>
+		</li>
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
@@ -17,25 +18,19 @@
         </li>
 
         <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}" id="allplants-link" aria-haspopup="true" aria-expanded="false">
-                About Us
-            </a>
-        </li>
-
-        <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="desert-link" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=desert_plants" id="desert-link" aria-haspopup="true" aria-expanded="false">
                 Desert Plants
             </a>
         </li>
 
         <li class="nav-item ">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="rainforest-link" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=rainforest_plants" id="rainforest-link" aria-haspopup="true" aria-expanded="false">
                 Rainforest Plants
             </a>
         </li>
 
         <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="low-main-link" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'products' %}?category=low_maintenance" id="low-main-link" aria-haspopup="true" aria-expanded="false">
                 Low Maintenance
             </a>
         </li>
