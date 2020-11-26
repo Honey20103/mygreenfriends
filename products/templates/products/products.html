@@ -40,12 +40,8 @@
 								<div class="card-footer bg-light pt-0 border-0 text-left">
 									<div class="row">
 										<div class="col">
-											<p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
-											{% if product.rating %}
-											<small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
-											{% else %}
-											<small class="text-muted">No Rating</small>
-											{% endif %}
+											<p class="lead mb-0 text-left font-weight-bold"><i class="fas fa-euro-sign"></i>{{ product.price }}</p>
+											<small class="text-muted"><i class="fas fa-seedling mr-1"></i>{{ product.size }}</small>
 										</div>
 									</div>
 								</div>
