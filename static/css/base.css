@@ -46,7 +46,14 @@ body {
   font-size: 28px;
 }
 
+span.badge:hover {
+    background: #0b380f !important;
+    color: #fff !important;
+}
 
+.small {
+    color:  #0b380f !important;
+}
 /* from Bulma */
 .icon {
     align-items: center;

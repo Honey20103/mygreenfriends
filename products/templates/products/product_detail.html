@@ -25,22 +25,26 @@
 			                                </a>
 						{% endif %}
 			</div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            <div class="product-details-container mb-5 mt-md-5">
-                    <p class="mb-0">{{ product.name }}</p>
-                    <p class="lead mb-0 text-left font-weight-bold"><i class="fas fa-euro-sign"></i>${{ product.price }}</p>
-                    <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.size }} </small>
-                    
-                       
+		</div>
+		<div class="col-12 col-md-6 col-lg-4">
+			<div class="product-details-container mb-5 mt-md-5">
+				<p class="mb-0">{{ product.name }}</p>
+				<p class="lead mb-0 text-left font-weight-bold"><i class="fas fa-euro-sign"></i>${{ product.price }}</p>
+				{% if product.category %}
+				<p class="small mt-1 mb-0">
+					<a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
+						<i class="fas fa-seedling mr-1"></i>{{ product.category.friendly_name }}
+					</a>
+				</p>
+				{% endif %}
+				<small class="text-muted"><i class="fas fa-weight-hanging mr-1"></i>{{ product.size }} </small>
 
-        
-                    <small><p><a href="{% url 'extra' product.id %}" class="btn btn-primary btn-md">More Pics</a></p></small>
-                    <p class="mt-3">{{ product.description }}</p>
-                </div>
-        </div>
+				<small><p><a href="{% url 'extra' product.id %}" class="btn btn-primary btn-md">More Pics</a></p></small>
+				<p class="mt-3">{{ product.description }}</p>
+			</div>
+		</div>
 
 	</div>
 
-    </div>
+</div>
 {% endblock %}
