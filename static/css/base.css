@@ -1,24 +1,29 @@
 html {
-    height: 100%;
+  height: 100%;
 }
 
 /* -------------------------------- Homepage */
 body {
-    margin: 0;
-    height: calc(100vh - 164px);
-    color: rgb(10, 42, 30);
-    font-family: 'Quicksand', sans-serif;
-    overflow-x: hidden;
-    background: url('/media/homepage_background.jpg') no-repeat center center fixed;
-    background-size: cover;
+  margin: 0;
+  height: calc(100vh - 164px);
+  color: rgb(10, 42, 30);
+  font-family: "Quicksand", sans-serif;
+  overflow-x: hidden;
 }
 
-.hero-image {
-  height: 100vh;
-  width: 100vw;
-  position: relative;
+.homepage {
+  position: absolute;
+  height: 200%;
+  width: 200%;
+  top: 0;
+  left: 0;
+  background: url("/media/homepage_background.jpg") no-repeat center center fixed;
   background-size: cover;
-  background: url('/media/homepage_background.jpg') no-repeat center center fixed;
+  color: rgb(25, 46, 25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .overlay {
@@ -27,7 +32,22 @@ body {
   width: 200%;
   top: 0;
   left: 0;
-  background: url('/media/back4.jpg') no-repeat center center fixed;
+  background: url("/media/back4.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: rgb(25, 46, 25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.overlay-product {
+  position: absolute;
+  height: 200%;
+  width: 200%;
+  top: 0;
+  left: 0;
+  background: url("/media/back8.jpg") no-repeat center center fixed;
   background-size: cover;
   color: rgb(25, 46, 25);
   display: flex;
@@ -48,44 +68,44 @@ body {
 }
 
 span.badge:hover {
-    background: #0b380f !important;
-    color: #fff !important;
+  background: #0b380f !important;
+  color: #fff !important;
 }
 
 .small {
-    color:  #0b380f !important;
+  color: #0b380f !important;
 }
 /* from Bulma */
 .icon {
-    align-items: center;
-    display: inline-flex;
-    justify-content: center;
-    height: 1.5rem;
-    width: 1.5rem;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .logo-font {
-    text-transform: uppercase;
-    font-weight: bold;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .logo-font-2 {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 .main-logo-link {
-    width: fit-content;
+  width: fit-content;
 }
 
 .shop-now-button {
-    background: rgb(10, 42, 30);
-    color: white;
-    min-width: 260px;
+  background: rgb(10, 42, 30);
+  color: white;
+  min-width: 260px;
 }
 
 .btn-green {
-    background: rgb(10, 42, 30);
-    color: white;
+  background: rgb(10, 42, 30);
+  color: white;
 }
 
 .shop-now-button:hover,
@@ -94,33 +114,33 @@ span.badge:hover {
 .btn-green:hover,
 .btn-green:active,
 .btn-green:focus {
-    background: rgb(10, 42, 30);
-    color: white;
+  background: rgb(10, 42, 30);
+  color: white;
 }
 
 .text-green {
-    color: rgb(10, 42, 30) !important;
+  color: rgb(10, 42, 30) !important;
 }
 
 .border-black {
-    border: 1px solid rgba(7, 43, 19, 0.952) !important;
+  border: 1px solid rgba(7, 43, 19, 0.952) !important;
 }
 
 .bg-green {
-    background: #787 !important;
+  background: #787 !important;
 }
 
 .btt-button {
-    height: 42px;
-    width: 42px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    color:  rgba(7, 43, 19, 0.952) !important;
+  height: 42px;
+  width: 42px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: rgba(7, 43, 19, 0.952) !important;
 }
 
 .btt-link {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* -------------------------------- Media Queries */
@@ -134,15 +154,15 @@ span.badge:hover {
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
+  .fixed-top-desktop-only {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
 
-    .header-container {
-        padding-top: 164px;
-    }
+  .header-container {
+    padding-top: 164px;
+  }
 }
