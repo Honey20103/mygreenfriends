@@ -108,6 +108,21 @@ span.badge:hover {
   color: white;
 }
 
+.btn-outline-green {
+    background: white;
+    color: rgb(10, 42, 30) !important; 
+    border: 1px solid black;
+}
+
+.btn-outline-green:hover,
+.btn-outline-green:active,
+.btn-outline-green:focus {
+    background: rgb(10, 42, 30);
+    color: whitesmoke !important;
+}
+
+
+
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -122,7 +137,7 @@ span.badge:hover {
   color: rgb(10, 42, 30) !important;
 }
 
-.border-black {
+.border-green {
   border: 1px solid rgba(7, 43, 19, 0.952) !important;
 }
 
@@ -143,7 +158,10 @@ span.badge:hover {
   cursor: pointer;
 }
 
-
+.cart-header {
+    font-size: 1.5em;
+    
+}
 /* --------Product details page */
 
 .care-delivery-collpase {
@@ -152,7 +170,7 @@ span.badge:hover {
 }
  .care-delivery-collpase:hover{
     color: #3e5717;
-    text-decoration: wavy;
+    text-decoration: none;
  }
 
 /* -------------------------------- Media Queries */
