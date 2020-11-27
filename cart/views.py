@@ -1,4 +1,6 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.contrib import messages
+from products.models import Product
 
 # Create your views here.
 
@@ -21,3 +23,25 @@ def add_to_cart(request, item_id):
 
     request.session['cart'] = cart
     return redirect(redirect_url)
+
+
+def adjust_cart(request, item_id):
+    """ This adjusts quantity of chosen plants into the shopping cart """
+
+    quantity = int(request.POST.get('quantity'))
+    cart = request.session.get('cart', {})
+    product = get_object_or_404(Product, pk=item_id)
+
+    if quantity > 0:
+        cart[item_id] = quantity
+        messages.success(request,
+                        (f'Updated {product.name} '
+                         f'quantity to {cart[item_id]}'))
+    else:
+        cart.pop(item_id)
+        messages.success(request,
+                         (f'Removed {product.name} '
+                          f'from your cart'))
+
+    request.session['cart'] = cart
+    return redirect(reverse('view_cart'))
