@@ -154,7 +154,9 @@ span.badge:hover {
   color: rgba(7, 43, 19, 0.952) !important;
 }
 
-.btt-link {
+.btt-link,
+.update-link,
+.remove-item {
   cursor: pointer;
 }
 
