@@ -12,7 +12,7 @@ def view_cart(request):
 def add_to_cart(request, item_id):
     """ This adds a quantity of chosen plants into the shopping cart """
 
-    product = Product.objects.get(pk=item_id)
+    product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
     cart = request.session.get('cart', {})
