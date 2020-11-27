@@ -143,6 +143,18 @@ span.badge:hover {
   cursor: pointer;
 }
 
+
+/* --------Product details page */
+
+.care-delivery-collpase {
+    color: rgb(10, 42, 30);
+
+}
+ .care-delivery-collpase:hover{
+    color: #3e5717;
+    text-decoration: wavy;
+ }
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

@@ -17,7 +17,7 @@
 			<div class="image-container my-5">
 				{% if product.image %}
 				<a href="{{ product.image.url }}" target="blank">
-					<img class="card-img-top img-fluid border-dark" src="{{ product.image.url }}" alt="{{ product.name }}">
+					<img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
 			                                </a>
 					{% else %}
 					<a href="">
@@ -52,6 +52,44 @@
                                     </div>
                                 </div>
                             </div>
+                            
+
+                                        <div class="care-delivery-container">
+                    <p>
+                        <a class="care-delivery-collpase" data-toggle="collapse" href="#careInfo"
+                            role="button" aria-expanded="false" aria-controls="deliveryInfo">
+                            <hr>
+                             <i class="fas fa-hand-holding-heart
+ mr-1"></i><strong>Care</strong> 
+                        </a>
+                    </p>
+                    <div class="collapse" id="careInfo">
+                        <div class="info">
+                            <p class="mt-3">{{ product.care }}</p>
+                    </div>
+                </div>
+                                       
+<hr>
+
+                    <p>
+                        <a class="care-delivery-collpase" data-toggle="collapse" href="#deliveryInfo"
+                            role="button" aria-expanded="false" aria-controls="deliveryInfo">
+                            
+                             <i class="fas fa-truck
+ mr-1"></i><strong>Delivery</strong> 
+                        </a>
+                    </p>
+                    <div class="collapse" id="deliveryInfo">
+                        <div class="">
+                            We offer free delivery for all orders over {{ free_delivery_threshold }}€, remember only within Europe.<br>
+                        Delivery time 3-7 working days.<br>
+                        <br>
+
+                        <strong>PS:  We don't accept returns <i class="fas fa-smile-wink"></i>.</strong>
+                    </div>
+                
+                <hr>
+                    </div>
 
                             <div class="col-12">
                                 <a href="{% url 'products' %}" class="btn btn-outline-green rounded-0 mt-5">
@@ -67,13 +105,7 @@
                     </form>
 			</div>
 		</div>
-        <div class="container">
-        <div class="row">
-<div class="col-12 col-md-6 col-lg-4">
-<p class="mt-3 display-5">How to care for it?</p>
-</div>
-</div>
-</div>
+        
 	</div>
 
 </div>

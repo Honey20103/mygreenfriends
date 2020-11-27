@@ -13,6 +13,7 @@ class ProductAdmin(admin.ModelAdmin):
         'price',
         'size',
         'image',
+        'care',
     )
 
     ordering = ('sku',)
