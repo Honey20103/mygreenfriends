@@ -51,6 +51,10 @@ INSTALLED_APPS = [
     'products',
     'cart',
     'checkout',
+
+    # Additional
+    'crispy_forms',
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -66,6 +70,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'myGreenfriends.urls'
 
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -80,8 +86,13 @@ TEMPLATES = [
                 'django.template.context_processors.request', #required by allauth to work
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media',
                 'cart.contexts.cart_contents',
             ],
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field',
+            ]
         },
     },
 ]
@@ -178,8 +189,3 @@ if 'USE_AWS' in os.environ:
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
     #AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
-
-
-#Other
-'crispy_forms',
-'storages',

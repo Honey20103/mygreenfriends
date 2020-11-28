@@ -41,6 +41,21 @@ body {
   flex-direction: column;
 }
 
+.overlay-checkout {
+  position: absolute;
+  height: 200%;
+  width: 200%;
+  top: 0;
+  left: 0;
+  background: url("/media/back10.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: rgb(25, 46, 25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .overlay-product {
   position: absolute;
   height: 200%;
