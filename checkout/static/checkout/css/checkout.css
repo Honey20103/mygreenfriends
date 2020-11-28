@@ -54,6 +54,16 @@ select option[value=""] {
 
 /* When form is submitted, loading overlay shows and covers entire screen */
 
+select,
+select option {
+    color: rgb(10, 42, 30);
+}
+
+select:invalid,
+select option[value=""] {
+    color: #aab7c4 !important;
+}
+
 #loading-overlay {
 	display: none;
 	position: fixed;
