@@ -19,8 +19,8 @@ for a {{ site_name }} account and then sign in below:{% endblocktrans %}</p>
 <div class="socialaccount_ballot">
 
   <ul class="socialaccount_providers">
+  <a href="{% provider_login_url 'google' %}" class="btn btn btn-danger btn-lg btn-block" role="button" aria-pressed="true">Sign in with Google</a>
   
-    {% include "socialaccount/snippets/provider_list.html" with process="login" %}
   </ul>
 
   <div class="login-or"><br><strong>{% trans 'or' %}</strong></div>
