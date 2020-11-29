@@ -7,8 +7,8 @@
 
 <div class="container flex-fill">
     <div class="row mt-4 mb-1">
-        <div class="col-lg-8 col-sm mx-auto">
-            <a href="{% url 'blog' %}"><small>← Return</small></a>
+        <div class="col-lg-8 col-sm mx-auto text-green">
+            <a href="{% url 'blog' %}"><small> <i class="fas fa-angle-left"></i>Return</small></a>
         </div>
     </div>
 	<div class="row mb-5 text-center">
@@ -16,18 +16,19 @@
 			<h1>{{blogpost.title}}</h1>
 			<hr class="separator w-25">
             {% if blogpost.subtitle %}
-            <h3>{{blogpost.subtitle}}</h3>
+            <h4><i>{{blogpost.subtitle}}</i></h4>
             {% endif %}
 		</div>
 	</div>
     <div class="row">
         <div class="col-lg-8 col-sm mx-auto text-justify">
+            <!-- Author/Date -->
+            <small><p class="text-center">Author: {{blogpost.author.username}}</p></small>
+            <small><p class="text-center">Published: {{blogpost.created_at|date:'d. M, Y'}}</p></small>
             <!-- Post Content -->
             <p class="lead">{{blogpost.body}}</p>
             <hr>
-            <!-- Authe/Date -->
-            <p>Author: {{blogpost.author.user.first_name}}</p>
-            <p>Published: {{blogpost.created_at|date:'d. M, Y'}}</p>
+            
         </div>
     </div>
 </div>
