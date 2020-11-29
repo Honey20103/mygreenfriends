@@ -15,10 +15,10 @@
     }
   },
   {
-    "pk": 2,
+    "pk": 31,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001600425",
+      "sku": "pp5001600456",
       "name": "Hadassah",
       "description": "She is a Monstera Adansoni, still deciding if she should climb or trail, tbh I’m just afraid to bother her to death.",
       "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
@@ -209,10 +209,10 @@
     "fields": {
       "sku": "pp5001730021",
       "name": "Bonnie",
-      "description": "He is a Monstera Adansoni and he is very moody, I never know what he wants and neither does he. Needless to say, he is annoying but of course, I don’t say that to him (might propagate & grow him with water (FOREVER))",
-      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
-      "size": "Small",
-      "price": 11.99,
+      "description": "He is a Bonsai/Ficus microcarpa. He is easy going but gets very dramatic when not happy by dropping leaves frantically. He doesn’t like drafts either. He can be quite a looker!",
+      "care": "LIGHT - It prefers direct sunlight, next to a southern window. WATER - the most important rule is, never water on a routine, only water when needed. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
+      "size": "Medium",
+      "price": 25.99,
       "category": 2,
       "image_url": null,
       "image": "bonnie.jpg"
@@ -220,268 +220,234 @@
   },
 
     {
-    "pk": 3,
+    "pk": 15,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001730010",
-      "name": "Christopher",
-      "description": "He is a Monstera Adansoni and he is very moody, I never know what he wants and neither does he. Needless to say, he is annoying but of course, I don’t say that to him (might propagate & grow him with water (FOREVER))",
-      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
-      "size": "Small",
-      "price": 11.99,
-      "category": 2,
+      "sku": "pp5001730022",
+      "name": "Aroleia",
+      "description": "She is a Devils Ivy or Gullranka. This one can be both a climber or a hanger and is a fast grower and its beauty pays of instantly.",
+      "care": "LIGHT - does well in low light. WATER - allow to dry out completely between waterings. HUMIDITY - enjoys average to high humidity",
+      "size": "Medium",
+      "price": 19.99,
+      "category": 3,
       "image_url": null,
-      "image": "christopher.jpg"
+      "image": "aroleia.jpg"
     }
   },
 
     {
-    "pk": 3,
+    "pk": 16,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001730010",
-      "name": "Christopher",
-      "description": "He is a Monstera Adansoni and he is very moody, I never know what he wants and neither does he. Needless to say, he is annoying but of course, I don’t say that to him (might propagate & grow him with water (FOREVER))",
-      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
+      "sku": "pp5001730024",
+      "name": "Mattias",
+      "description": "Good 'ol fella, doesn't bother me much, I like his glass home, he looks happy.",
+      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - leaves enhoy misting",
       "size": "Small",
-      "price": 11.99,
-      "category": 2,
+      "price": 19.99,
+      "category": 3,
       "image_url": null,
-      "image": "christopher.jpg"
+      "image": "mattias.jpg"
     }
   },
 
     {
-    "pk": 3,
+    "pk": 17,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001730010",
-      "name": "Christopher",
-      "description": "He is a Monstera Adansoni and he is very moody, I never know what he wants and neither does he. Needless to say, he is annoying but of course, I don’t say that to him (might propagate & grow him with water (FOREVER))",
-      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
-      "size": "Small",
-      "price": 11.99,
+      "sku": "pp5001730023",
+      "name": "Meghan",
+      "description": "She is a Monstera and ofcourse is royal. She is quite the center-piece, one cannot go without noticing her, neither do I, everyday!",
+      "care": "LIGHT - thrives in bright to medium indirect light.. WATER - every 1-2 weeks, allowing soil to dry in between. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
+      "size": "Large",
+      "price": 29.99,
       "category": 2,
       "image_url": null,
-      "image": "christopher.jpg"
+      "image": "meghan.jpg"
     }
   },
 
     {
-    "pk": 3,
+    "pk": 18,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001730010",
-      "name": "Christopher",
-      "description": "He is a Monstera Adansoni and he is very moody, I never know what he wants and neither does he. Needless to say, he is annoying but of course, I don’t say that to him (might propagate & grow him with water (FOREVER))",
-      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
+      "sku": "pp5001730025",
+      "name": "JackieChan",
+      "description": "He is a Devils Ivy or Gullranka. This one can be both a climber or a hanger and is a fast grower and its beauty pays of instantly.",
+      "care": "LIGHT - does well in low light. WATER - allow to dry out completely between waterings. HUMIDITY - enjoys average to high humidity",
       "size": "Small",
-      "price": 11.99,
-      "category": 2,
+      "price": 15.99,
+      "category": 3,
       "image_url": null,
-      "image": "christopher.jpg"
+      "image": "jackiechan.jpg"
     }
   },
 
     {
-    "pk": 3,
+    "pk": 19,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001730010",
-      "name": "Christopher",
-      "description": "He is a Monstera Adansoni and he is very moody, I never know what he wants and neither does he. Needless to say, he is annoying but of course, I don’t say that to him (might propagate & grow him with water (FOREVER))",
-      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
+      "sku": "pp5001730026",
+      "name": "Molly",
+      "description": "She is a Radermachera, quite the needy one too, she doesn't seem to grow much.",
+      "care": "LIGHT - Prefers direct sunlight. WATER - water every 4 days even during winter season. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
       "size": "Small",
-      "price": 11.99,
+      "price": 9.99,
       "category": 2,
       "image_url": null,
-      "image": "christopher.jpg"
+      "image": "molly.jpg"
     }
   },
 
     {
-    "pk": 3,
+    "pk": 20,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001730010",
-      "name": "Christopher",
-      "description": "He is a Monstera Adansoni and he is very moody, I never know what he wants and neither does he. Needless to say, he is annoying but of course, I don’t say that to him (might propagate & grow him with water (FOREVER))",
-      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
-      "size": "Small",
-      "price": 11.99,
-      "category": 2,
+      "sku": "pp5001730027",
+      "name": "Xiomara",
+      "description": "She is a Devils Ivy or Gullranka. She is a very special baby too me, I keep her in my room.",
+      "care": "LIGHT - does well in low light. WATER - allow to dry out completely between waterings. HUMIDITY - enjoys average to high humidity",
+      "size": "Medium",
+      "price": 30.00,
+      "category": 3,
       "image_url": null,
-      "image": "christopher.jpg"
+      "image": "xiomara.jpg"
     }
   },
 
     {
-    "pk": 3,
+    "pk": 21,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001730010",
-      "name": "Christopher",
-      "description": "He is a Monstera Adansoni and he is very moody, I never know what he wants and neither does he. Needless to say, he is annoying but of course, I don’t say that to him (might propagate & grow him with water (FOREVER))",
-      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
+      "sku": "pp5001730028",
+      "name": "Poppy",
+      "description": "She is a Cactus, we got history she and I. She fell off 2 meters high the first time I attempted to hang her in a terrarium, she survived, the next terrarium I man handled and slightly cracked the glass.",
+      "care": "LIGHT - Prefers direct sunlight. WATER - it deeply but infrequently, wait till completely dry. TEMP - does in best 13 and 27°C.",
       "size": "Small",
-      "price": 11.99,
-      "category": 2,
+      "price": 20.00,
+      "category": 1,
       "image_url": null,
-      "image": "christopher.jpg"
+      "image": "poppy.jpg"
     }
   },
 
     {
-    "pk": 3,
+    "pk": 22,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001730010",
-      "name": "Christopher",
-      "description": "He is a Monstera Adansoni and he is very moody, I never know what he wants and neither does he. Needless to say, he is annoying but of course, I don’t say that to him (might propagate & grow him with water (FOREVER))",
-      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
-      "size": "Small",
-      "price": 11.99,
-      "category": 2,
+      "sku": "pp5001730029",
+      "name": "Jeffrey",
+      "description": "He is a Snakeplant, also known as “mother in laws tongue” and is a great beginner plant. Great air cleaner too.",
+      "care": "LIGHT - prefers bright indirect. WATER - allow to dry out completely between waterings.",
+      "size": "Medium",
+      "price": 25.99,
+      "category": 3,
       "image_url": null,
-      "image": "christopher.jpg"
+      "image": "jeffrey.jpg"
     }
   },
 
     {
-    "pk": 3,
+    "pk": 23,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001730010",
-      "name": "Christopher",
-      "description": "He is a Monstera Adansoni and he is very moody, I never know what he wants and neither does he. Needless to say, he is annoying but of course, I don’t say that to him (might propagate & grow him with water (FOREVER))",
-      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
-      "size": "Small",
-      "price": 11.99,
+      "sku": "pp5001730030",
+      "name": "Rut",
+      "description": "She is a Peace Lily and and can literally survive WW3 if there was, she is fighter",
+      "care": "LIGHT - It prefers bright indirect light. It can survive in lower light. WATER - consistency is key, keep the soil moist. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
+      "size": "Medium",
+      "price": 21.99,
       "category": 2,
       "image_url": null,
-      "image": "christopher.jpg"
+      "image": "rut.jpg"
     }
   },
 
     {
-    "pk": 3,
+    "pk": 24,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001730010",
-      "name": "Christopher",
-      "description": "He is a Monstera Adansoni and he is very moody, I never know what he wants and neither does he. Needless to say, he is annoying but of course, I don’t say that to him (might propagate & grow him with water (FOREVER))",
-      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
+      "sku": "pp5001730031",
+      "name": "Sandra",
+      "description": "She is a desert plant, forgot her species to be honest. She gorgeous though!",
+      "care": "LIGHT - Prefers direct sunlight. WATER - it deeply but infrequently, wait till completely dry. TEMP - does in best 13 and 27°C.",
       "size": "Small",
-      "price": 11.99,
-      "category": 2,
+      "price": 20.99,
+      "category": 1,
       "image_url": null,
-      "image": "christopher.jpg"
+      "image": "sandra.jpg"
     }
   },
 
     {
-    "pk": 3,
+    "pk": 25,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001730010",
-      "name": "Christopher",
-      "description": "He is a Monstera Adansoni and he is very moody, I never know what he wants and neither does he. Needless to say, he is annoying but of course, I don’t say that to him (might propagate & grow him with water (FOREVER))",
-      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
-      "size": "Small",
-      "price": 11.99,
+      "sku": "pp5001730033",
+      "name": "Joachim",
+      "description": "He is a Golden Cane Palm or Areca Palm, he is my beloved, need I say more",
+      "care": "LIGHT - It prefers bright light. It can survive in lower light. WATER -  every 5 to 7 days depending on light and temperature. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
+      "size": "Large",
+      "price": 33.50,
       "category": 2,
       "image_url": null,
-      "image": "christopher.jpg"
+      "image": "joachim.jpg"
     }
   },
 
     {
-    "pk": 3,
+    "pk": 26,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001730010",
-      "name": "Christopher",
-      "description": "He is a Monstera Adansoni and he is very moody, I never know what he wants and neither does he. Needless to say, he is annoying but of course, I don’t say that to him (might propagate & grow him with water (FOREVER))",
-      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
+      "sku": "pp5001730034",
+      "name": "Fanny",
+      "description": "He is a Devils Ivy or gullranka. This one can be both a climber or a hanger and is a fast grower and its beauty pays of instantly.",
+      "care": "LIGHT - does well in low light. WATER - allow to dry out completely between waterings. HUMIDITY - enjoys average to high humidity",
       "size": "Small",
-      "price": 11.99,
-      "category": 2,
+      "price": 15.99,
+      "category": 3,
       "image_url": null,
-      "image": "christopher.jpg"
+      "image": "fanny.jpg"
     }
   },
 
     {
-    "pk": 3,
+    "pk": 27,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001730010",
-      "name": "Christopher",
-      "description": "He is a Monstera Adansoni and he is very moody, I never know what he wants and neither does he. Needless to say, he is annoying but of course, I don’t say that to him (might propagate & grow him with water (FOREVER))",
-      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
+      "sku": "pp5001730035",
+      "name": "Liyla",
+      "description": "She is a Sansevieria Bacularis, she is cute and fits well in her glass sandal. ",
+      "care": "LIGHT - Prefers direct bright light can survive low. WATER - it deeply but infrequently, wait till completely dry. TEMP - does in best 13 and 27°C.",
       "size": "Small",
-      "price": 11.99,
-      "category": 2,
+      "price": 19.99,
+      "category": 1,
       "image_url": null,
-      "image": "christopher.jpg"
+      "image": "liyla.jpg"
     }
   },
 
     {
-    "pk": 3,
+    "pk": 28,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001730010",
-      "name": "Christopher",
-      "description": "He is a Monstera Adansoni and he is very moody, I never know what he wants and neither does he. Needless to say, he is annoying but of course, I don’t say that to him (might propagate & grow him with water (FOREVER))",
-      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
+      "sku": "pp5001730036",
+      "name": "Theresa",
+      "description": "She is a Sansevieria Bacularis, a hybrid snake plant.",
+      "care": "LIGHT - Prefers direct bright light can survive low. WATER - it deeply but infrequently, wait till completely dry. TEMP - does in best 13 and 27°C.",
       "size": "Small",
-      "price": 11.99,
-      "category": 2,
+      "price": 29.99,
+      "category": 1,
       "image_url": null,
-      "image": "christopher.jpg"
+      "image": "theresa.jpg"
     }
   },
-
-    {
-    "pk": 3,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5001730010",
-      "name": "Christopher",
-      "description": "He is a Monstera Adansoni and he is very moody, I never know what he wants and neither does he. Needless to say, he is annoying but of course, I don’t say that to him (might propagate & grow him with water (FOREVER))",
-      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
-      "size": "Small",
-      "price": 11.99,
-      "category": 2,
-      "image_url": null,
-      "image": "christopher.jpg"
-    }
-  },
-
-    {
-    "pk": 3,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5001730010",
-      "name": "Christopher",
-      "description": "He is a Monstera Adansoni and he is very moody, I never know what he wants and neither does he. Needless to say, he is annoying but of course, I don’t say that to him (might propagate & grow him with water (FOREVER))",
-      "care": "LIGHT - It prefers light indirect light. It can survive in lower light. WATER - enjoys to dry out to about 75% before it is watered again. Never allow your plant to sit in water or soggy soil, as this can lead to root rot and the eventual death of your plant. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",
-      "size": "Small",
-      "price": 11.99,
-      "category": 2,
-      "image_url": null,
-      "image": "christopher.jpg"
-    }
-  },
-
-  
 
   {
     "pk": 30,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001890157",
+      "sku": "pp5001890046",
       "name": "Emma",
       "description": "She is a Celosia, shes quite the drama queen needs water every other day or else she plates dead. Give her all the sun and few drinks and shes happy. #highmaintenace",
       "care": "LIGHT - Prefers direct sunlight. WATER - water every other day even during winter season. HUMIDITY - benefit from a boost in humidity. Misting, or placing a humidifier nearby.",

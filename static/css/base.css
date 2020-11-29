@@ -179,19 +179,23 @@ span.badge:hover {
   background: #787 !important;
 }
 
+
 .btt-button {
-  height: 42px;
-  width: 42px;
+  height: 40px;
+  width: 40px;
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 20px;
+  right: 20px;
   color: rgba(26, 61, 41, 0.952) !important;
 }
+
+.btt-link,
 
 .btt-link,
 .update-link,
 .remove-item {
   cursor: pointer;
+  
 }
 
 .cart-header {
@@ -202,7 +206,18 @@ span.badge:hover {
 /* Nav on white background */
 
 .shadow {
-    height: 65px;
+  position: absolute;
+  height: 200%;
+  width: 200%;
+  top: 0;
+  left: 0;
+  background: url("/media/back9.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: rgb(25, 46, 25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 
@@ -233,6 +248,14 @@ span.badge:hover {
 .toast-capper {
     height: 2px;
 }
+
+/* --------Product extra image  page */
+
+
+.d-block {
+    justify-content: center;
+}
+
 
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
@@ -426,4 +449,24 @@ span.badge:hover {
   .header-container {
     padding-top: 164px;
   }
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
+}
+@media (max-width: 1178px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
 }

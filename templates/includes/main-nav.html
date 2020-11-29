@@ -1,21 +1,11 @@
 <div class="collapse navbar-collapse " id="main-nav">
 	<ul class="navbar-nav w-auto mx-auto">
+       
+
         <li class="nav-item">
-			<a class="logo-font font-weight-bold nav-link text-green mr-5" href="{% url 'blog' %}"
-				id="allplants-link" aria-haspopup="true" aria-expanded="false">
-				Blog
-			</a>
-		</li>
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-green mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-green mr-5" href="{% url 'products' %}" id="desert-link" aria-haspopup="true" aria-expanded="false">
                 All Plants
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price (Low to High)</a>
-                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}?sort=size&direction=desc" class="dropdown-item ">By Size (Small to Large)</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Plants</a>
-            </div>
         </li>
 
         <li class="nav-item">
@@ -35,5 +25,6 @@
                 Low Maintenance
             </a>
         </li>
+
     </ul>
 </div>
