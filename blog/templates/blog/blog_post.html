@@ -1,14 +1,14 @@
 {% extends "base.html" %} {% load static %}
-{% block extra-title %}- object.title {% endblock %} 
+{% block extra-title %}- {{blogpost.title}} {% endblock %} 
 {% block content %}
 
 {# @TODO: add background from backend with  #}
-<div class="shadow-for-nav"></div>
+<div class="shadow"></div>
 
 <div class="container flex-fill">
     <div class="row mt-4 mb-1">
-        <div class="col-lg-8 col-sm mx-auto text-green">
-            <a href="{% url 'blog' %}"><small> <i class="fas fa-angle-left"></i>Return</small></a>
+        <div class="col-lg-8 col-sm mx-auto ">
+            <a href="{% url 'blog' %}"><strong><small> <i class="fas fa-angle-left"></i>Return</small></strong></a>
         </div>
     </div>
 	<div class="row mb-5 text-center">

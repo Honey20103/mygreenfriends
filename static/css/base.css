@@ -71,6 +71,21 @@ body {
   flex-direction: column;
 }
 
+.overlay-blog {
+  position: absolute;
+  height: 200%;
+  width: 200%;
+  top: 0;
+  left: 0;
+  background: url("/media/back12.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: rgb(25, 46, 25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .overlay h1 {
   font-size: 65px;
   letter-spacing: 0px;
@@ -182,6 +197,12 @@ span.badge:hover {
 .cart-header {
     font-size: 1.5em;
     
+}
+
+/* Nav on white background */
+
+.shadow {
+    height: 65px;
 }
 
 
@@ -357,6 +378,32 @@ span.badge:hover {
 .allauth-form-inner-content a {
 	color: #204e55; /* text-info */
 }
+
+
+/* Footer Styles from base file, viewed on all pages */
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(69, 78, 75);
+  color: white;
+  text-align: center;
+}
+	
+
+.footer-email {
+	color: #d4af37;
+	font-size: 0.90rem;
+	text-decoration: none;
+}
+
+.footer-email:hover {
+	color: #dfdfdf;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

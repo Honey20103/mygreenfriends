@@ -4,7 +4,7 @@
 {% block content %}
 
 {# @TODO: add background from backend with  #}
-<div class="shadow-for-nav"></div>
+<div class="overlay-blog"></div>
 
 <div class="container flex-fill">
 	<div class="row header my-5 text-center">
@@ -16,7 +16,7 @@
     {% for post in blogposts %}
         <div class="row">
             <div class="col mt-3">    
-                <div class="card mb-3">
+                <div class="card border-light bg-light mb-3">
                     <div class="card-body">
                         <h5 class="card-title"><a href="{{post.slug}}">{{post.title}}</a></h5>
                         <p class="card-text">{{post.subtitle}}</p>

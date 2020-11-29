@@ -29,7 +29,7 @@
 		<div class="col-12 col-md-6 col-lg-4">
 			<div class="product-details-container mb-5 mt-md-5">
 				<p class="mb-0">{{ product.name }}</p>
-				<p class="lead mb-0 text-left font-weight-bold"><i class="fas fa-euro-sign"></i>${{ product.price }}</p>
+				<p class="lead mb-0 text-left font-weight-bold"><i class="fas fa-euro-sign"></i>{{ product.price }}</p>
 				{% if product.category %}
 				<p class="small mt-1 mb-0">
 					<a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
@@ -112,7 +112,7 @@
                     </div>
 
                             <div class="col-12">
-                                <a href="{% url 'products' %}" class="btn btn-outline-green rounded-0 mt-5">
+                                <a href="{% url 'products' %}" class="btn btn-outline-green mt-5">
                                     <span class="icon">
                                         <i class="fas fa-chevron-circle-left"></i>
                                     </span>
