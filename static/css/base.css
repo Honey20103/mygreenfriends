@@ -308,11 +308,11 @@ span.badge:hover {
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
-    color: #6c757d; /* text-secondary */
+    color: #637264; /* text-secondary */
 }
 
 .allauth-form-inner-content input {
-    border-color: #000;
+    border-color: #rgba(14, 83, 60, 0.472);
     border-radius: 0;
 }
 
@@ -336,8 +336,8 @@ span.badge:hover {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: #rgba(14, 83, 60, 0.472);
+    border: 1px solid #rgba(14, 83, 60, 0.472);
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
@@ -350,12 +350,12 @@ span.badge:hover {
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {	
 	color: #fff;
-    background-color: #222;
-    border-color: #222;
+    background-color: rgba(14, 83, 60, 0.472);
+    border-color: rgba(14, 83, 60, 0.472);
 }
 
 .allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
+	color: #204e55; /* text-info */
 }
 /* -------------------------------- Media Queries */
 
