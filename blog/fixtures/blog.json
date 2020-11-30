@@ -4,12 +4,12 @@
   "pk": 1,
   "fields": {
     "author": 1,
-    "title": "Hanging Plant Care",
-    "subtitle": "Get a lot more of the good stuf",
-    "body": "Hanging house plants get a lot more of the good stuff—more light, airflow, and great drainage. But their airborne state also leaves them more vulnerable to water-loss and damage from wayward pets, passersby, and outdoor wind damage. Here are some essential guidelines, for placement, how to care for hanging plants, and repotting, to keep hanging plants happy and make them a highlight of your home décor. Where there is light, you can hang. Some plants need bright direct sunlight, while others need more shade, but overall any bright window is a shoo-in for hanging plants. Place groups of complementary plants of varying sizes at varying heights to create artful collections. Complementary plants should look good together and have the same growing needs. Small hanging pots are perfect for decorating brightly-lit window sills or mantles. Humidity-loving tropicals look pretty cascading above bathtubs or showers where they can enjoy the steam along with you. Large hanging pots make a statement in any spacious sunroom or bright spot in the home. Just be sure that you take into account watering and spill zones. Antique furniture or your most treasured textiles should not reside below or near a hanging house plant.Wherever you place them, make sure hanging plants are away from traffic. An ill-placed pendulous pot is sure to knock a few heads, lose a few stems, and eventually get broken. Cat owners must also keep pots and long stems out of leaping or batting distance, and if you like to take hanging house plants outside in summer, place them in low-wind areas near the home.",
+    "title": "About Us",
+    "subtitle": "Hi and welcome to my garden enclosed!",
+    "body": "A plantastic place for all who would like to discover, explore and express their love for plants. It all began with my weird liking of plants, which then led to me getting addicted to caring for them and enjoying the beauty and complexities that each plant had, I was astonished by it all. And yeah ofcourse I am just a natural carer. Being a plant mom/parent has come with its very many highs and extremely high lows, I can't begin to stress how it's all a learning curve and that sometimes it takes killing a couple of them before you get a hang of it. With this site I've decided to share my inhouse plants with the world, initially wanted to make it a bidding site, make all of you fight each other for my plants and leave me all your money, but I decided to be kinder. With this site I sell my home plants aka myGreenfriends aka beloveds with you, I will keep restocking of course because as I mentioned it's an ADDICTION, also I am running out of space and places to put these fella's, and that's why I need you.  Buy a plant, or read a blog and don't forget to write us/me about your plant love journey or any questions.  FYI for what it's worth these are not all the plants in my home, these are just the one's that were lucky to make the photoshoot.  My journey has begun, will you start yours today?? Surround yourself with plants and the plants will take care of you. This sounds like a joke but it actually is not, studies show that by adding indoor plants to your home tension can reduce by 37%, anger by 44% and fatigue by 38%. GET a myGreenfriends NOW.",
     "slug": "Hanging Plant Care",
-    "created_at": "2020-11-06T13:10:23.523Z",
-    "updated_at": "2020-11-06T13:10:23.523Z",
+    "created_at": "2020-11-10T13:10:23.523Z",
+    "updated_at": "2020-11-10T13:10:23.523Z",
     "status": null
   }
 },
@@ -17,13 +17,13 @@
   "model": "blog.blogpost",
   "pk": 2,
   "fields": {
-    "author": 1,
+    "author": 2,
     "title": "How to Keep Plants Alive While on Vacation",
     "subtitle": "Get a lot more of the good stuf",
     "body": "While houseplants don’t need a full-time babysitter like pets or children, they do require a bit of water and attention before you leave for a long vacation. Most houseplants will be just fine for a few days without water; however, if you leave for more than a week, you may come back to find your plants wilted or dead. Keep plants from perishing and ensure they receive what they need while you are away with these vacation watering tips.",
     "slug": "AliveOrDead",
-    "created_at": "2020-11-06T13:10:23.523Z",
-    "updated_at": "2020-11-06T13:10:23.523Z",
+    "created_at": "2020-11-15T13:10:23.523Z",
+    "updated_at": "2020-11-15T13:10:23.523Z",
     "status": null
   }
 },
@@ -36,8 +36,8 @@
     "subtitle": "(Everybody’s Doing It!)",
     "body": "As we all know from experience that communication is a key to building better relationships. There are dog owners, cat owners and even snake enthusiasts, and the one thing they all have in common: they talk to their pets. This creates stronger bonds and helps with living longer and healthier. (Check out our article on fave pet friendly plants!). So, what does that mean for plant parents? If you aren’t already doing it…start talking to your plant babies! According to Michael Pollan’s article “The Intelligent Plant”,  plants have more sensory capabilities than we humans do with our 5 senses. These senses can be stimulated by the plant’s environment, just like a baby in a mother’s belly is stimulated by the sounds of her voice or the music she listens to. By providing an energizing environment through conversation, you’ll encourage the growth of your plants, as well as encourage your own bond with them. Talking to your plants might feel a little strange at first, but over time, and with practice, you’ll be chatting with your green friends probably more than your mother. Just kidding. (Hi mom!)",
     "slug": "Talking to Plants",
-    "created_at": "2020-11-06T13:10:45.495Z",
-    "updated_at": "2020-11-06T13:10:45.495Z",
+    "created_at": "2020-11-26T13:10:45.495Z",
+    "updated_at": "2020-11-26T13:10:45.495Z",
     "status": null 
   }
 }
