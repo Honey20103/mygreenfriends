@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Honey20103/mygreenfriends/blob/master/static/img/jpg.png" style="margin: 0;" width="300" height="200" >static/img/jpg.png
+  <img src="https://github.com/Honey20103/mygreenfriends/blob/master/static/img/jpg.png" style="margin: 0;" >
 </p>
 
 
