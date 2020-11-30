@@ -43,11 +43,7 @@ A live demo can be found [here](https://my-green-friends.herokuapp.com/)
   * [Features](#features)
     + [Existing Features](#exitsing-features)
     + [Future Features](#future-features)
-    
   * [Technologies](#technologies)
-    + [JavaScript Libraries](#javascript-libraries)
-    + [Python & Django Plugins](#python---django-plugins)
-
   * [Testing](#testing)
   * [Bugs](#bugs)
     + [CSS](#css)
@@ -112,11 +108,20 @@ Initial wireframes were done on paper and pen, I'll probably at a later stage ad
 
 ### Wireframes
 
-[Home Page](https://github.com/Honey20103/BrewMaster/blob/master/wireframes/homepage.png)
+[Home Page](https://github.com/Honey20103/mygreenfriends/blob/master/wireframes/homepage.jpg)
 
-[Login Page](https://github.com/Honey20103/BrewMaster/blob/master/wireframes/loginpage.png)
+[Login/Signup Page](https://github.com/Honey20103/mygreenfriends/blob/master/wireframes/login.jpg)
 
-[Brew Log Page](https://github.com/Honey20103/BrewMaster/blob/master/wireframes/logpage.png)
+[Products Page ](https://github.com/Honey20103/mygreenfriends/blob/master/wireframes/productpage.jpg)
+
+[Products Detail Page ](https://github.com/Honey20103/mygreenfriends/blob/master/wireframes/productdetail.jpg)
+
+[Shopping Cart ](https://github.com/Honey20103/mygreenfriends/blob/master/wireframes/cart.jpg)
+
+[Checkout Page ](https://github.com/Honey20103/mygreenfriends/blob/master/wireframes/checkout.jpg)
+
+[Order confirmation Page ](https://github.com/Honey20103/mygreenfriends/blob/master/wireframes/orderconfirm.jpg)
+
 
 ### Database Schema
 
@@ -286,7 +291,7 @@ Please visit the manual testing file [here](TEST.md).
 
 * Feedback from Users;
   - The add log form seemed to have been allowing creation of log with empty fields. (FIXED)
-  - The datepicker doesn't require an entry to submit form. (Attempted to fix this with a js script however submit button becomes unfunctional, thus was unable to fix this issu, however Date field shows red if empty)
+  - [More feedback](https://github.com/Honey20103/mygreenfriends/blob/master/wireframes/Mygreenfriends%20user%20feedback.pdf)
 
 #### [Web Accessibility](https://www.webaccessibility.com/)
 
@@ -335,15 +340,9 @@ Two ways to test that when a user signed up they were stored in the database or 
 - Stopped code refactoring due to many errors and bugs it was causing with webhooks etc.
 
 #### Expected Behavior
-* Burger menu in mobile view immediately displays nav menu without clicking the burger.(FIXED)
+* Email confirmation not being received by end users.(FIXED)
 
-* Logo Image and favicon image will not load. (FIXED)
-
-* JS for datepicker functionality will not initiate from static/js/script.js file, it only successfuly initiates js code is directly in base.html file.
-
-* Fade in Overlay CSS hover effect not functioning well for mobile devices. (FIXED).
-
-* ENV VARIABLES - Went above and beyond to create environmental variables for my secret keys and URI's, however all my attempted where rendered unsuccessful. Kept receiving *ValueError: You must specify a URI or set the MONGO_URI Flask config variable* despite all attempts to use correct methods of setting up with env.py and also via gitpod. Reached out for help on the CodeInstitute slack channel and Tutor assistance, tutor could not help figure it out, neither the channel could help. I've exhausted all attempts to try not to submit my project with visible private info.
+* webhook specific payment_success_intent failing after code refactoring
 
 
 ***
@@ -458,25 +457,17 @@ When your build is successful your app would be deployed at similar [link:https:
 ## Credits
 
 ### Content
-The content on the site is derived from my boyfriend's self-made beer brewing log manuscript book. 
+All text content for this system were written by me and product pictures of my home plants.
 
-### Code
-[Hover CSS effect on homepage: ](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade) This package of CSS was used to render the behaviour of the homepage front image when hovering the image, to show the about of the app.
-
-[Blueprints and configurations in application:](https://www.youtube.com/watch?v=Wfx4YBzg16s) This tutorial helped me use Application Factory, which allows to easily create multiple instances of the app with different configurations. The Blueprints restructuring split up my app into more manageable sections i.e Auth.py, main.py and _init_.py. 
-
-[Authentication to App:](https://www.digitalocean.com/community/tutorials) Tutorial helped with setting up authentication to webapp.
-
-### Media 
-
-- The logo for the project was taken from the [pngtree](https://pngtree.com/) site. 
+### Media
+Background overlays images from: https://www.pexels.com/
 
 ### Acknowledgements
-- I was inspired to create this website from observing the struggles I watched my boyfriends encounter by trying to keep and maintain a manual notebook to store his brew day info or records, especially thankful for the help with testing functionality of the app. Thank you Robert Flink.
+- Multiple images on products [link](https://bookmarkinglists.com/how-to-upload-multiple-images-in-django/unsplashed)
+- Admin nested inline help [link](https://stackoverflow.com/questions/14308050/django-admin-nested-inline)
+- W3schools.com [link](https://www.w3schools.com/)
+- Django 3.0 documentation [link](https://docs.djangoproject.com/en/3.0/)
+- How to handles names for blogs [link](https://stackoverflow.com/questions/12340789/split-first-name-and-last-name-using-javascript)
+- control date templates [link](https://ourcodeworld.com/articles/read/555/how-to-format-datetime-objects-in-the-view-and-template-in-django)
+- How to Authenitcate using Google [link](https://ourcodeworld.com/articles/read/555/how-to-format-datetime-objects-in-https://www.youtube.com/watch?v=NG48CLLsb1A)
 
-- I'd like to thank tutor Tim Nelson at CodeInstitute who helped unblock me when i was completely stuck and providing extra helpful resources.
-
-
-<p align="center">
-  <img src="https://github.com/Honey20103/BrewMaster/blob/master/homebrew_app/project/static/images/brewmaster2.png" style="margin: 0;" width="150" height="100">
-</p>
