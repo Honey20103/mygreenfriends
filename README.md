@@ -40,11 +40,14 @@ A live demo can be found [here](https://my-green-friends.herokuapp.com/)
     + [Wireframes](#wireframes)
     + [Database Schema](#database-schema)
     + [Surface](#surface)
+  * [Features](#features)
+    + [Existing Features](#exitsing-features)
+    + [Future Features](#future-features)
+    
   * [Technologies](#technologies)
     + [JavaScript Libraries](#javascript-libraries)
     + [Python & Django Plugins](#python---django-plugins)
-  * [Features](#features)
-    + [Features Left to Implement](#features-left-to-implement)
+
   * [Testing](#testing)
   * [Bugs](#bugs)
     + [CSS](#css)
@@ -76,7 +79,6 @@ A live demo can be found [here](https://my-green-friends.herokuapp.com/)
 | 8                              | Shopper     | View plant details                                              | To view plant description and care info                                       |
 | 9                              | Shopper     | View the cart details                                          | To manage my purchase                                                         |
 | 10                              | Shopper     | Adjust the quantity of items in my cart or remove them | To manage my purchase                       |
-
 | 11                              | Shopper     | View more pictures                                         | To see more pictures and realistic view    |
 | Purchasing and Checkout        |             |                                                                   |                                                                               |
 | 12                             | Customer    | View plants in my cart to be purchased                              | Identify the plants and total cost before checkout  |
@@ -189,11 +191,10 @@ After creating the apps and their models, `` python manage.py makemigrations `` 
 Throughout the development, I had adjusted fields were necessary.
 
 ### Surface
-My idea for the design is to have colour relating to beer such as brown, gold, orange or essentially brown theme colour palette, this will help users associate with the act of beer brewing.
 
-<img src="https://github.com/Honey20103/BrewMaster/blob/master/wireframes/themecolor1.png" style="margin: 0;" width="600" height="250" >
+My idea for the design is to have colour relating to plants and greenhouse kind of look. Chosen colours where  gold, orange or essentially brown theme colour palette, this will help users associate with the act of beer brewing.
 
-
+<img src="https://github.com/Honey20103/mygreenfriends/blob/master/static/img/palletes.png" style="margin: 0;" width="600" height="250" >
 
 
 ***
@@ -202,44 +203,61 @@ My idea for the design is to have colour relating to beer such as brown, gold, o
 
 ### Existing Features
 
-* **User Accounts** - Signup for an account, log-in and log-out.
-* **Log/Recipe page** - When a recipe or brew log is selected the user will be presented with the page for that recipe. 
-* **Add Log/Recipe** - The user can go to the menu and open the add log brew day page, providing the user with a diary or digital like a notebook to log their brew day content and add them to the database.
-* **Add Ingredient** - Ingredient options will be available however if an option is not found, the user can add a new ingredient to the database.
-* **Edit & Delete ingredients** - Ability for the user to edit and delete ingredients.
-* **Multiple users login** - Ability to have more profiles for multiple beer brewers to log their recipes.
-* **View ther brewers logs** - Ability for brewers to unhide or unlock certain logs to be publicly visible to other brewers on the app.
+* **Profile page** - Allow the user to insert their billing/shipping information. If the user is logged in during checkout or when trying to fill out the contact form, their personal information will already be populated. On the profile page, the user will be able to view their past orders and click on them to once again view the order summary. The profile link in the navbar is only available to users who are logged in.
+* **Login/Register page** - Created with Django- Allauth, the login and register has all of the standard features to create a new user. Styling was customized to make it unique. There are pages included to handle:
+Sign up - requires username, email, password twice and an email will be sent with a verification link
+Login - requires either username or email and password with a toast message confirming successfully signed in, includes Google login ability
+Logout - Once completed logout, a toast message confirming successfully logged out
+Forgot password - requires email and email will be sent to link to update password
+**Login with Google** OAuth login capabilities.
+* **Products** - Shoppers can view all plants, or view by category, or view by sorting either price or naming. Ability to search for words found in plant names or descriptions.
+* **Plant view** - The user/shopper has the ability to view more pictures if the product contains more pictures, and view care details
+* **Cart** - Users can add or delete services to their cart which will be saved in the backend right away.
+As a user logs out the cart will be remembered in the system to be finished later. 
+When the customer checkout, a secured payment can be made with credit card is complete.
+The main goal of the profile page is to allow the user to insert their billing/shipping information. If the user is logged in during checkout or when trying to fill out the contact form, their personal information will already be populated. On the profile page, the user will be able to view their past orders and click on them to once again view the order summary. The profile link in the navbar is only available to users who are logged in.
+* **Blog** - Ability to view and readup on latest blogs organised in first created order.
+* **Order confirmation page** - The Order Confirmation page has a heading at the top to thank the user for shopping on the site. Below the heading the user will get a message to let them know the order has been confirmed and that they will recieve an e-mail confirmation. The confitmaion has an unique order number and the date and time of the sale. Below this is all the order details which has the details of the product, delivery and the billing information.
+The page has a button on the botton of the page which is keep shopping and that will bring the user back to the products page.
+* **Checkout Page** - Forms containing user details and address, followed by payment information. If the user enters an incorrect card number they will be shown that they have entered an incorrect card number. But if the card number is correct they will be able to enter the details without any error notification.
+Overview of order summary displaying the image, name, quantity, sub total, order total, delivery and grand total.
 
 ### Future Features
 
-- **Social sharing buttons**: Users will be able to share beer recipes to their social media channels via the social sharing buttons provided. 
-- **Brew Images** Ability to add/update a log by adding an image or images of the final brew result.
-- **Log order arrangement**List logs in dashboard according to date of brew and not when entered.
-- **Rating system** - The ability to star rate favourite brew day recipe
-- **Database per user login** -  Have separate DB for each user, prevent other users deleting or viewing logs
-
-***
-
-## Technologies Used
-
-### Frontend
-
-* [HTML](https://en.wikipedia.org/wiki/HTML)
-* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-* [Bootstrap](https://getbootstrap.com/)
-* [Materialize](https://materializecss.com/)
-* [Bulma](https://bulma.io/)
+- **Add bidding functionality**: Users will now bid on plants that are on auction, bid end date will be set, and sold to highest bidder. 
+- **Error Pages** Add custom 404/500 error messages
+- **Email of confirmation order** After successfully ordering a product, email confirmation is sent for order to the user's email
+- **Blog system** Allow guests to add comments a blog post, and like buttons
+- **Delivery Tracking** -  Product Delivery tracking system, basically a small system that has some statuses like IN_TRANSIT, DELIVERED, RETURNED etc for the status of the delivery.
 
 
-### Backend
+## Technologies
+ - GitHub Wiki TOC generator - *Generates a MarkDown TOC online*
+ - HTML - *To create the basics*
+ - CSS - *To improve placements and design*
+ - JavaScript - *The engine to create user interaction*
+ - Python - *Programming language*
+ - Postgresql - *Opensource database to save the transactions, profile, and orders*
+ - Django - *Web framework in python*
+ - Bootstrap - *To make the design responsive*
+ - Font Awesome - *Easy icon access for the icons*
 
-* [Python](https://www.python.org/)
-* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-* [MongoDB](https://www.mongodb.com/)
-* [SQLite3](https://sqlite.org/)
-* [Flask](https://flask.palletsprojects.com/en/1.1.x/)
-* [Flask-PyMongo](https://pypi.org/project/Flask-PyMongo/)
-* [SQLAlchemy](https://www.sqlalchemy.org/)
+### Python & Django Libraries
+ - pillow - *Python Imaging Library*
+ - Stripe - *Credit card payments and transaction security*
+ - boto3 - *To connect to AWS*
+ - django-allauth - *Authentication, registration & account management*
+ - django-countries - *Provides country choices for use with forms*
+ - django-phonenumber-field - *A Django library which interfaces with python-phonenumbers to validate*
+ - django-crispy-forms - *Controls the rendering behaviour of Django forms*
+ - django-filter - *Easy searching and filtering query sets*
+ - oauthlib - *Allow OAuth with social accounts*
+
+### JavaScript Libraries
+ - Stripe - *For credit card transactions*
+ - jQuery - *To improve input field feedback*
+
+
 
 ### Deployed
 
@@ -253,7 +271,7 @@ My idea for the design is to have colour relating to beer such as brown, gold, o
 
 #### Devices used to Test
 
-The BrewMaster App was test with the following devices:
+The myGreenfriends website was tested with the following devices:
 
 MacBook Pro Laptop
 HP Pavilion Laptop
@@ -284,7 +302,7 @@ Constantly used to ensure the app is mobile-first, and works well with all kinds
 
 Gitpod terminal providing lint issues and problems when it comes to the different scripts/languages.
 
-Further more for css testing I used this [site](http://csslint.net/) no errors found except warnings that informed that for IE6,IE7,IE8 I require fallback colors color: rgba(65, 48, 13, 0.959); I have made relevant changes to ommit this warning.
+Further more for css testing I used this [site](http://csslint.net/) .
 
 Used the DOM to detect how to properly fix issue with Fade in Overlay CSS hover effect not functioning well for mobile devices, and inserted necesarry media queries in CSS to fix the issue, the text now no longer overlaps the image background when size decreases.
 
@@ -293,7 +311,7 @@ Used the DOM to detect how to properly fix issue with Fade in Overlay CSS hover 
 HTML valid according to [site](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrewmaster-app.herokuapp.com%2F)
 
 #### Random User Testing
-Sent the app to boyfriend and colleagues to use, collecting their feedback for bug fixes and adjustments.
+Sent to friends, family and collegues.
 
 #### Python Testing
 I used [PEP8online](http://pep8online.com/) together with gitpod Problem tab to observe errors and warnings. At the moment errors have been fixed, only warnings exist naming the warning "line too long"
