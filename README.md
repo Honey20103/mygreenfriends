@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://github.com/Honey20103/BrewMaster/blob/master/homebrew_app/project/static/images/brewmaster3.1.png" style="margin: 0;" width="300" height="200" >
+  <img src="https://github.com/Honey20103/mygreenfriends/blob/master/static/img/jpg.png" style="margin: 0;" width="300" height="200" >static/img/jpg.png
 </p>
 
-# myGreenfriends
+
 
 [![Build Status](https://travis-ci.com/Honey20103/mygreenfriends.svg?branch=master)](https://travis-ci.com/Honey20103/mygreenfriends)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
@@ -11,30 +11,23 @@
 This is a place for every and all that want to be closer to the world of green. On this myGreenfriends e-commerce website I share plants, plantastic stories, info and tell one or two jokes. 
 The e-commerce website is developed for the actual plants I have in my private home. The main goal of the website will provide users the ability to browse through different plants found in my home and have the ability to purchase them. This might scale into an actual plant store in the future.
 
-The website will consist of a login page, a signup page and a main page displaying the plants available to buy. Once a product is added to the users basket, they will be able to purchase by entering delivery and payment details. User profile will allow the user to view a history of their purchases. Creating an account will allow customer to change their passwords and registered addresses. 
+The website will consist of a login page, a signup page and a main page displaying the plants available to buy. Once a product is added to the users cart, they will be able to purchase by entering delivery and payment details. User profile will allow the user to view a history of their purchases. Creating an account will allow customer to change their passwords and registered addresses, and also login with existing Google accounts. 
 
-This website is built with Django(a high-level Python Web framework) and Stripe (a payment processing platform) to provide a fully functional e-commerce website.
+This website is built with Django Python Web Framework and Stripe (a payment processing platform) to provide a fully functional e-commerce website.
 
 If you would like to test the payment functionality of this project, please use the following payment details:
 
-Card number: 9696 9696 9696 9696
+Card number: 4242 4242 4242 4242
 CVC: any 3 digit number
-Expiration Date: any future date
-Address: any address details
-To test the site as a superuser, you can use the following credentials to login:
+Expiration Date: Any future date
 
-Username: supertester
-Password: Testing123123
 
 
 ***
 
 ### Website
 
-<img src= "https://github.com/Honey20103/BrewMaster/blob/master/homebrew_app/project/static/images/multimockup.png" style="margin: 0;">
-
-
-A live demo can be found [here](https://brewmaster-app.herokuapp.com/)
+A live demo can be found [here](https://my-green-friends.herokuapp.com/)
 
 ***
 
@@ -43,8 +36,9 @@ A live demo can be found [here](https://brewmaster-app.herokuapp.com/)
   * [User stories](#user-stories)
     + [Strategy](#strategy)
     + [Scope](#scope)
-    + [Structure](#structure)
     + [Skeleton](#skeleton)
+    + [Wireframes](#wireframes)
+    + [Database Schema](#database-schema)
     + [Surface](#surface)
   * [Technologies](#technologies)
     + [JavaScript Libraries](#javascript-libraries)
@@ -68,60 +62,50 @@ A live demo can be found [here](https://brewmaster-app.herokuapp.com/)
 ## UX
 
 ### User stories
-- As an amateur homebrewer, it is important to take a record of the entire process of brew day,
-to learn from my previous mistakes and help improve my future batches.
+| User Story ID                  | As a     | I want to be able to…                                             | In order to …                                                                |
+|--------------------------------|-------------|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| Registration and User Accounts         |             |                                                                   |                                                                               |
+| 1                              | Shopper & Site Guest    | Register for an account                                          | Have an account to view my current & past orders                                                       |
+| 2                              | Shopper & Site Guest    | Login with Gmail Acc                                          | I'd like the flexibility to login with any account i.e Google                            |
+| 3                              | Shopper & Site Guest      | Login and Logout                                              | Quickly and easily retrieve personal information image                                        |
+| 4                              | Shopper & Site Guest      | Recover my password                                           | If I forget my password, Recover access to my account,                                                       |
+| 5                              | Shopper & Site Guest      | Receive an email conformation  | Verify my registration was successful and receive info                                                          |
+| 6                              | Shopper & Site Guest   | Have a personalized user profile                                  | To view my personal information such as payment information and order history |
+| Site Navigation         |             |                                                                   |                                                                               |
+| 7                              | Shopper     | View a list of plants                                           | Figure out what i want                                                         |
+| 8                              | Shopper     | View plant details                                              | To view plant description and care info                                       |
+| 9                              | Shopper     | View the cart details                                          | To manage my purchase                                                         |
+| 10                              | Shopper     | Adjust the quantity of items in my cart or remove them | To manage my purchase                                                         |
 
-- I often record my brew day notes or logs on a physical notebook, or sometimes the closest paper I
-can find, and in some cases, I lose it and there goes my brew record, no recollection of what was done.
+| 11                              | Shopper     | View more pictures                                         | To see more pictures and realistic view                                                         |
+| Purchasing and Checkout        |             |                                                                   |                                                                               |
+| 12                             | Customer    | View plants in my cart to be purchased                              | Identify the plants and total cost before I checkout                        |
+| 13                             | Customer    | Adjust the quantity or remove items in my cart                     | Easily make changes before checkout                                           |
+| 14                             | Customer    | Enter my payment information                                      | Check out easily with no problems                                             |
+| 15                             | Customer    | View an order confirmation after checkout                         | Verify there are no mistakes with my info                                   |
 
-- As a fairly confident home brewer, I need an application to store my recipes and eventually start a microbrewery or make a profit from my homemade recipes.
+| Sorting and Filtering          |             |                                                                   |                                                                               |
+| 16                             | Shopper     | Sort the list of plants                                         | I'd like the ability to sort by plant price, by name and by size                             |
+| 17                             | Shopper     | Search for a plant by name or description                       | Quickly find the plant I am interested in by inserting it's name                                  |
+| Plant Care          |             |                                                                   |                                                                               |
+| 18                             | Shopper /Site Guest    | Get Plant tips & ideas                                         | By having a possible blog option p                             |
+| 19                             | Shopper/ Site Guest     | Know more about the vision                       | By reading through blog posts                                  |
 
-- I am quite new to brewing, and I often make mistakes and need to change things in my notes, my notebook ends up looking like a child's scrapbook. Having a digital notebook will help with keeping my notes neat and easily editable.
 
-- As a user I would like to be able to see other brewer's processes, mistakes and results to improve my brewing techniques.
-
-- Beer brewing is quite an expensive hobby, having to view other brewers recipes saves me the need to buy brew recipes from companies.
-
-- I'd like the ability to rate the different brew recipes I make, to know which ones to repeat.
-
-- As a user, I can view all brew recipe logs, with information such as the date of the log.
-
-- As a user, I can search for recipes/logs.
-
-- As a user, I can add new brew logs to the database.
-
-- As a user, I can edit existing recipes/logs.
-
-- As a user, I can add new ingredients not available in the database.
-
-- As a user, I can delete recipes.
-
-- As a user, I can create an account.
-
-- As a user, I can log in to my account.
-
-- As a user, I can log out.
-
-- As a brewer, I would like to update a recipe/log by uploading a photo of the final result of my beer at the end of the process.
 
 
 
 ### Strategy
-My goal in the design was to make it as easy as possible for users to log their brew day process and log the recipes, to have a clean look with no clutter or information overload by having a user-friendly and minimalistic design.
+The overall strategy is for site guests or potential customers to be able to purchase my house plants and to set up a profile in order to view past orders, to save delivery and payment information with the possibility of returning to the website to purchase again. My goal in the design was to make it as easy as possible for users to view all the plants available and checkout as fast as possible, to have a clean look with no clutter or information overload by having a user-friendly and minimalistic design. The Homepage tells a story of what the site is about, and the logo which I had designed by a third party vendor on Fiverr makes it eyecatching, and helps visitors navigate to the plants by clicking the logo in the Nav bar. My backgroung overlays are specifically chosen to set the tone of the webiste mellow and planty, all downloaded from pexel, and plant uploads taken by myself and presets done in Lightroom Adobe. The Quicksand font sets the tone too, and so do the color themes mainly Green and white pallets.
 
 ### Scope
-For the users, I wanted to provide them with a functional platform to keep their brew records, lessen the burden of log keeping on physical notebooks and eventually serve as recipe storage. 
+For customers, I want to provide them with an easy to understand and use tool. The idea is to have customers return ASAP and thus making things easier such like logging in with Google API, helping for a faster, quicker shopping experience. 
 
-The scope has full CRUD functionality for logs.
-
-* A landing page that acts as a brewing diary, showing all logs recorded by the user.
-* A 'Log' page that displays the recipe and process of the beer they made.
-* A 'Add log' page that allows the user to add new log into their brewing diary/database.
-* An 'Edit log' page that allows the user to update and then saves to the database.
+* The ability to reset passwords.
+* Edit Cart by removing and updating chose plants in the checkout menu.
+* Store personal shopping information and previous orders
 * Ability to Create an account and store account in database
-* Functionality to login and log out of user dashboard/profile
-
-### Structure
+* Functionality to login and log out of user profile
 
 
 ### Skeleton
@@ -138,10 +122,71 @@ Initial wireframes were done on paper and pen, I'll probably at a later stage ad
 
 ### Database Schema
 
-Choose to work with both relational and non-relational databases namely SQLite3 and MongoDB. I used MongoBD for the brew data forms as its schema-less and  presents a clean document option JSON style documents. It seemed suitable for this use case of a diary log. As for the SQLite DB i chose to use it to test out working with a relational and the benefits of it being lightweight in terms of setup and database administration(no actual server or configurations required) and it fit my needs to be able to create to a database to store user info and fetch altogether, which would be advantageous when it comes to mobile devices considering the database is integrated with the app, meaning less lag(mobile first approach).
+In my development environment in Gitpod the SQLite3 DB was used, however in deploying to Heroku it uses Postgresql, the transition was smooth in terms of fieldsets and keys.
+The structure of the products, cart and checkout apps were derived from Code institue study material.
 
-<img src="https://github.com/Honey20103/BrewMaster/blob/master/homebrew_app/project/static/images/database_schema.png" style="margin: 0;" >
 
+Profiles app:
+To store customer data such like delivery info.
+
+| Name             | Database Key            | Field Type   | Validation                                       |
+|------------------|-------------------------|--------------|--------------------------------------------------|
+| Phone Number     | default_phone_number    | CharField    | max_length=20, null= True, blank =True           |
+| Street Address  | default_street_address | CharField    | max_length=80, null= True, blank =True           |
+| Town or City     | default_town_or_city    | CharField    | max_length=40, null= True, blank =True           |
+| Postcode         | default_postcode        | CharField    | max_length=20, null= True, blank =True           |
+| Country          | default_country         | CountryField | blank_label ='Country', null = True,  blank=True |
+| user             | user                    | OneToOneField |                                                 |
+
+Categories:
+Purpose to segment plants into types or groups.
+
+| Name          | Database Key  | Field Type | Validation/Requirements               |
+|---------------|---------------|------------|---------------------------------------|
+| Name          | name          | CharField  | max_length=200                        |
+| Friendly Name | friendly_name | CharField  | max_length=200, null=True, blank=True |
+
+
+Products app:
+Displays all the plants in the store
+| Name             | Database Key            | Field Type   | Validation                                       |
+|------------------|-------------------------|--------------|--------------------------------------------------|
+| Category         | default_category        | ForeignKey   | max_length=20, null= True, blank =True           |
+| SKU              | default_sku             | CharField    | max_length=80, null= True, blank =True           |
+| Name             | default_name            | CharField    | max_length=40, null= True, blank =True           |
+| Description      | default_description     | TextField    | max_length=20, null= True, blank =True           |
+| Care             | default_care            | CountryField | max_length=254, null=True, blank=True.           |
+| Size             | default_size            | TextField    | max_digits=6, decimal_places=2                   |
+| Price            | default_price           | DecimalField | max_digits=6, decimal_places=2                   |
+| Image_url        | default_image_url       | URLField     | max_length=1024, null=True, blank=True           |
+| Image            | default_care            | ImageField   | null=True, blank=True                            |
+
+Extra to products app:
+Displays all the plants in the store
+| Name             | Database Key            | Field Type   | Validation                                       |
+|------------------|-------------------------|--------------|--------------------------------------------------|
+| product          | default_product         | ForeignKey   | 'Product', default=None, on_delete=models.CASCADE|
+| images           | default_images          | ImageField   | upload_to = 'images/'                            |
+
+
+Blog: 
+Read up on what we are about and what sparks my interest
+
+| Name           | Database Key   | Field Type     | Validation/Requirements                                                                      |
+|----------------|----------------|----------------|----------------------------------------------------------------------------------------------|
+| author         | User           | ForeignKey     | User, on_delete=models.CASCADE, null=False, blank=True                                       |
+| title          | title          | CharField      | max_length=120, null=True, blank=False                                                       |
+| subtitle       | subtitle       | CharField      | max_length=120, null=True, blank=False                                                       |
+| body           | body           | SlugField      |                                                                                              |
+| created_at     | created        | DateTimeField  | auto_now=True, null=False                                                                    |
+| updated_at     |  updated       | DateTimeField  | auto_now=True, null=False                                                                    |
+| status         | choices        | IntegerField   | blank=True, null=True, default=""                                                            |
+| slug           | slug           | SlugField      | unique=True, max_length=250, default=None                                                    |
+
+
+After creating the apps and their models, `` python manage.py makemigrations `` was run in the terminal to create the initial model package and `` python manage.py migrate `` was then used to apply the model to the database and create the table.
+
+Throughout the development, I had adjusted fields were necessary.
 
 ### Surface
 My idea for the design is to have colour relating to beer such as brown, gold, orange or essentially brown theme colour palette, this will help users associate with the act of beer brewing.
