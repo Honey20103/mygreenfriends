@@ -75,21 +75,21 @@ A live demo can be found [here](https://my-green-friends.herokuapp.com/)
 | 7                              | Shopper     | View a list of plants                                           | Figure out what i want                                                         |
 | 8                              | Shopper     | View plant details                                              | To view plant description and care info                                       |
 | 9                              | Shopper     | View the cart details                                          | To manage my purchase                                                         |
-| 10                              | Shopper     | Adjust the quantity of items in my cart or remove them | To manage my purchase                                                         |
+| 10                              | Shopper     | Adjust the quantity of items in my cart or remove them | To manage my purchase                       |
 
-| 11                              | Shopper     | View more pictures                                         | To see more pictures and realistic view                                                         |
+| 11                              | Shopper     | View more pictures                                         | To see more pictures and realistic view    |
 | Purchasing and Checkout        |             |                                                                   |                                                                               |
-| 12                             | Customer    | View plants in my cart to be purchased                              | Identify the plants and total cost before I checkout                        |
-| 13                             | Customer    | Adjust the quantity or remove items in my cart                     | Easily make changes before checkout                                           |
-| 14                             | Customer    | Enter my payment information                                      | Check out easily with no problems                                             |
-| 15                             | Customer    | View an order confirmation after checkout                         | Verify there are no mistakes with my info                                   |
+| 12                             | Customer    | View plants in my cart to be purchased                              | Identify the plants and total cost before checkout  |
+| 13                             | Customer    | Adjust the quantity or remove items in my cart                     | Easily make changes before checkout   |
+| 14                             | Customer    | Enter my payment information                                      | Check out easily with no problems        |
+| 15                             | Customer    | View an order confirmation after checkout                         | Verify there are no mistakes with my info  |
 
-| Sorting and Filtering          |             |                                                                   |                                                                               |
-| 16                             | Shopper     | Sort the list of plants                                         | I'd like the ability to sort by plant price, by name and by size                             |
-| 17                             | Shopper     | Search for a plant by name or description                       | Quickly find the plant I am interested in by inserting it's name                                  |
-| Plant Care          |             |                                                                   |                                                                               |
-| 18                             | Shopper /Site Guest    | Get Plant tips & ideas                                         | By having a possible blog option p                             |
-| 19                             | Shopper/ Site Guest     | Know more about the vision                       | By reading through blog posts                                  |
+| Sorting and Filtering          |             |                                                                   |                                              |
+| 16                             | Shopper     | Sort the list of plants                                         | I'd like the ability to sort by plant price, by name and by size      |
+| 17                             | Shopper     | Search for a plant by name or description                       | Quickly find the plant I am interested in by inserting it's name    |
+| Plant Care          |             |                                                                   |                                                  |
+| 18                             | Shopper /Site Guest    | Get Plant tips & ideas                                         | By having a possible blog option |
+| 19                             | Shopper/ Site Guest     | Know more about the vision                       | By reading through blog posts              |
 
 
 
