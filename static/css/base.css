@@ -380,8 +380,8 @@ span.badge:hover {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #rgba(14, 83, 60, 0.472);
-    border: 1px solid #rgba(14, 83, 60, 0.472);
+    background-color: rgb(31, 66, 30);
+    border: 1px solid rgb(31, 66, 30);
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;

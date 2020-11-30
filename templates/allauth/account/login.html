@@ -12,18 +12,18 @@
 {% get_providers as socialaccount_providers %}
 
 {% if socialaccount_providers %}
-<p>{% blocktrans with site.name as site_name %}If you have an already existing 
-Google account, sign in with it. Or, <a href="{{ signup_url }}">sign up</a>
-for a {{ site_name }} account and then sign in below:{% endblocktrans %}</p>
+<p class="text-center">{% blocktrans with site.name as site_name %}If you have an already existing 
+Google account use it. </p> <h6 class="text-center">Or <a href="{{ signup_url }}">SIGN UP</a>
+for a {{ site_name }} account and then sign in below:{% endblocktrans %}</h6>
 
 <div class="socialaccount_ballot">
 
   <ul class="socialaccount_providers">
-  <a href="{% provider_login_url 'google' %}" class="btn btn btn-danger btn-lg btn-block" role="button" aria-pressed="true">Sign in with Google</a>
+  <a href="{% provider_login_url 'google' %}" class="btn btn-danger btn-md btn-block" role="button" aria-pressed="true">Sign in with Google</a>
   
   </ul>
 
-  <div class="login-or"><br><strong>{% trans 'or' %}</strong></div>
+  <div class="login-or text-center"><br><strong>{% trans 'I have a myGreenfriends account' %}</strong></div>
 
 </div>
 
