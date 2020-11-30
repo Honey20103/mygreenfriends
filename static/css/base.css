@@ -356,7 +356,7 @@ span.badge:hover {
 }
 
 .allauth-form-inner-content input {
-    border-color: #rgba(14, 83, 60, 0.472);
+    border-color: rgba(14, 83, 60, 0.472);
     border-radius: 0;
 }
 
