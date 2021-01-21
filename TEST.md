@@ -256,7 +256,7 @@
 
 1. Open Browser
 2. Open [myGreenfriends](https://my-green-friends.herokuapp.com/)
-3. Click Userprofile-icon and login with puffin1@byom.de pw: testuser1
+3. Click Userprofile-icon 
 4. Click on SHOP
 5. Click Kids - T-Shirt or Grown Ups - Sweatshirts
 6. Choose any product by clicking the image
@@ -285,7 +285,7 @@
 ## 11. Registered Users: Useraccount :white_check_mark:
 
 1. Open Browser
-2. Open [Puffins Page](https://thepuffins.herokuapp.com)
+2. Open [myGreenfriends](https://my-green-friends.herokuapp.com/)
 3. Click MyPlaccount Icon and login with 
 4. Click on MyPlaccount Icon
 5. Should see Form 
